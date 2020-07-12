@@ -11,5 +11,10 @@ img = Image.open('./pokedex/pikachu.jpg')
 
 #greyscale image 
 greyscale_img = img.convert('L')
-greyscale_img.save("grey_pika.png", 'png')
-greyscale_img.show()
+# greyscale_img.save("grey_pika.png", 'png')
+# greyscale_img.show()
+
+#rotate image 
+crooked = greyscale_img.rotate(90)
+crooked.save("rotate_pika.png", 'png')
+crooked.show()
