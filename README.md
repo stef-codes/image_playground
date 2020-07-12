@@ -1,1 +1,1 @@
-# image_playground
+# Image Playground
