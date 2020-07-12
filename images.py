@@ -6,5 +6,9 @@ img = Image.open('./pokedex/pikachu.jpg')
 # filtered_img.save("blur.png", 'png')
 
 #sharp image 
-sharp_img = img.filter(ImageFilter.SHARPEN)
-sharp_img.save("sharp_pika.png", 'png')
+# sharp_img = img.filter(ImageFilter.SHARPEN)
+# sharp_img.save("sharp_pika.png", 'png')
+
+#greyscale image 
+greyscale_img = img.convert('L')
+greyscale_img.save("grey_pika.png", 'png')
