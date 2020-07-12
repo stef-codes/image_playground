@@ -12,3 +12,4 @@ img = Image.open('./pokedex/pikachu.jpg')
 #greyscale image 
 greyscale_img = img.convert('L')
 greyscale_img.save("grey_pika.png", 'png')
+greyscale_img.show()
